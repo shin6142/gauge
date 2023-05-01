@@ -24,5 +24,5 @@ npm install
 specファイルを実行します
 ```
 cd ~/gauge
-specs/api/v1/stamp/index.spec
+gauge run specs/api/v1/stamp/index.spec
 ```
