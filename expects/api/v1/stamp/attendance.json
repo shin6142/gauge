@@ -1,0 +1,30 @@
+[
+    {
+        "employee_id": 1164735,
+        "company_id": 1884310,
+        "type": "1",
+        "base_date": "2023-04-30",
+        "datetime": "2023-04-30 12:04:06"
+    },
+    {
+        "employee_id": 1164735,
+        "company_id": 1884310,
+        "type": "2",
+        "base_date": "2023-04-30",
+        "datetime": "2023-04-30 13:04:06"
+    },
+    {
+        "employee_id": 1164735,
+        "company_id": 1884310,
+        "type": "3",
+        "base_date": "2023-04-30",
+        "datetime": "2023-04-30 14:04:06"
+    },
+    {
+        "employee_id": 1164735,
+        "company_id": 1884310,
+        "type": "4",
+        "base_date": "2023-04-30",
+        "datetime": "2023-04-30 15:04:06"
+    }
+]
