@@ -57,9 +57,9 @@ export default class AttendanceAppE2e {
         return process.env.PATH_TO_PROJECT;
     }
 
-    private async sendPostRequest(url: string, requestBody: any) {
+    private async sendPostRequest(uri: string, requestBody: any) {
         try {
-            const response = await axios.post(url, requestBody, {
+            const response = await axios.post(uri, requestBody, {
                 headers: {
                     'Content-Type': 'application/x-www-form-urlencoded',
                 }
