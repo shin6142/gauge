@@ -59,6 +59,13 @@ export default class AttendanceAppE2e {
         assert.deepEqual(rows, expected)
     }
 
+    @Step("Execute query <queryRelativePath>")
+    public async executeQuery(queryRelativePath: string){
+        const queryFullPath = this.getFullPath(queryRelativePath);
+        const sql = fs.readFileSync(queryFullPath).toString();
+        await (await this.connection()).execute(sql);
+    }
+
     private async sendGetRequest(uri: string): Promise<any> {
         try {
             const response = await axios.get<[]>(uri);
